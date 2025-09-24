@@ -1,1 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Allerton Apps, LLC — Software Publishing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Allerton Apps, LLC — We design and publish mobile apps, including FitScribe for iOS.">
+  <link rel="icon" href="data:,">
+  <style>
+    :root { --fg:#111; --muted:#555; --bg:#fff; --brand:#0a84ff; }
+    *{box-sizing:border-box} body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--fg);background:var(--bg)}
+    header{padding:64px 20px;text-align:center}
+    header h1{margin:0 0 8px;font-size:28px}
+    header p{margin:0;color:var(--muted)}
+    .wrap{max-width:900px;margin:0 auto;padding:24px 20px}
+    .card{border:1px solid #eee;border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 1px 6px rgba(0,0,0,.04)}
+    h2{margin:0 0 8px;font-size:20px}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    footer{padding:32px 20px;text-align:center;color:var(--muted)}
+    .btn{display:inline-block;padding:10px 14px;border:1px solid var(--brand);border-radius:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Allerton Apps, LLC</h1>
+    <p>We design and publish thoughtful mobile apps.</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card" id="about">
+      <h2>About</h2>
+      <p>Allerton Apps, LLC is a software publisher based in Florida. We build iOS apps focused on fitness, health, and productivity.</p>
+      <p><strong>Primary product:</strong> FitScribe — workout tracking with AI-assisted planning.</p>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:support@allertonapps.com">support@allertonapps.com</a></p>
+      <p>Business: <a href="mailto:dev@allertonapps.com">dev@allertonapps.com</a></p>
+    </section>
+
+    <section class="card" id="fitscribe">
+      <h2>FitScribe (iOS)</h2>
+      <p>Log workouts, analyze progress, and generate plans tailored to your training history.</p>
+      <!-- App Store link goes here once live -->
+      <!-- <p><a class="btn" href="https://apps.apple.com/app/idXXXXXXXXXX">View on the App Store</a></p> -->
+    </section>
+
+    <section class="card" id="policies">
+      <h2>Policies</h2>
+      <p><a href="/support.html">Support</a> · <a href="/privacy.html">Privacy Policy</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="y"></span> Allerton Apps, LLC
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
 
