@@ -2,15 +2,93 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Support — Allerton Apps</title>
+  <title>Support | Allerton Apps</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding:24px;color:#111} a{color:#0a84ff}</style>
+  <meta name="description" content="Get support for FitScribe and other Allerton Apps products. Contact our team, review resources, or request account updates.">
+  <meta property="og:title" content="Allerton Apps Support">
+  <meta property="og:description" content="Need help with FitScribe? Email support@allertonapps.com for a response within one business day.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.allertonapps.com/support.html">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
-  <h1>Support</h1>
-  <p>Need help? Email us at <a href="mailto:support@allertonapps.com">support@allertonapps.com</a>.</p>
-  <p>For FitScribe, please include your app version (Settings → About) and a brief description of the issue.</p>
-  <p><a href="/">← Back to home</a></p>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">Allerton Apps</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/support.html" aria-current="page">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Support</h1>
+        <p class="lead">We’re here to help with FitScribe and other Allerton Apps experiences. Reach out and we’ll respond within one business day.</p>
+        <div class="support-cta">
+          <a class="btn btn-primary" href="mailto:support@allertonapps.com">Email support@allertonapps.com</a>
+          <p class="contact-note">Monday–Friday, 9am–5pm Eastern. Typical response time: under 1 business day.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container support-grid">
+        <article class="card">
+          <h2>Get In Touch</h2>
+          <p>Choose the contact that best matches your question.</p>
+          <ul class="support-list">
+            <li><strong>Product support:</strong> <a href="mailto:support@allertonapps.com">support@allertonapps.com</a></li>
+            <li><strong>Billing &amp; subscriptions:</strong> Manage through your <a href="https://support.apple.com/en-us/HT202039">Apple ID subscriptions</a>, then email us if something looks off.</li>
+            <li><strong>Business inquiries:</strong> <a href="mailto:dev@allertonapps.com">dev@allertonapps.com</a></li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>What To Include</h2>
+          <p>The more detail you provide, the faster we can help.</p>
+          <ul class="support-list">
+            <li>Your device model and iOS version</li>
+            <li>The FitScribe app version (Settings → About)</li>
+            <li>A short description of what happened and the steps that led to it</li>
+            <li>Screenshots or screen recordings, if available</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Self-Service Resources</h2>
+          <p>Review key references any time.</p>
+          <ul class="support-list">
+            <li><a href="https://apps.apple.com/app/idXXXXXXXXXX">Download FitScribe on the App Store</a></li>
+            <li><a href="/fitscribe/privacy.html">FitScribe Privacy Policy</a></li>
+            <li><a href="/fitscribe/terms.html">FitScribe Terms of Service</a></li>
+            <li><a href="mailto:support@allertonapps.com?subject=FitScribe%20Data%20Request">Request data export or deletion</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container info-card">
+        <h2>Account &amp; Data Requests</h2>
+        <p>For privacy or account deletion requests, email <a href="mailto:support@allertonapps.com">support@allertonapps.com</a> with the subject “FitScribe Data Request.” We verify ownership via your Apple ID receipt and complete requests within 7 days.</p>
+        <p>If you’re experiencing a health emergency, contact local medical professionals immediately. FitScribe is not intended to provide medical advice.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="current-year"></span> Allerton Apps, LLC</p>
+      <nav class="footer-nav" aria-label="Legal">
+        <a href="/support.html" aria-current="page">Support</a>
+      </nav>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-

@@ -2,61 +2,108 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Allerton Apps, LLC — Software Publishing</title>
+  <title>FitScribe by Allerton Apps</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Allerton Apps, LLC — We design and publish mobile apps, including FitScribe for iOS.">
+  <meta name="description" content="FitScribe — AI-generated workouts that meet you where you are. Download the Allerton Apps iOS experience for adaptive plans and simple tracking.">
+  <meta property="og:title" content="FitScribe — AI-generated workouts that meet you where you are.">
+  <meta property="og:description" content="Up to a week of personalized training based on your experience, goals, and recent sessions.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.allertonapps.com/">
   <link rel="icon" href="data:,">
-  <style>
-    :root { --fg:#111; --muted:#555; --bg:#fff; --brand:#0a84ff; }
-    *{box-sizing:border-box} body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--fg);background:var(--bg)}
-    header{padding:64px 20px;text-align:center}
-    header h1{margin:0 0 8px;font-size:28px}
-    header p{margin:0;color:var(--muted)}
-    .wrap{max-width:900px;margin:0 auto;padding:24px 20px}
-    .card{border:1px solid #eee;border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 1px 6px rgba(0,0,0,.04)}
-    h2{margin:0 0 8px;font-size:20px}
-    a{color:var(--brand);text-decoration:none}
-    a:hover{text-decoration:underline}
-    footer{padding:32px 20px;text-align:center;color:var(--muted)}
-    .btn{display:inline-block;padding:10px 14px;border:1px solid var(--brand);border-radius:12px}
-  </style>
+  <link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
-  <header>
-    <h1>Allerton Apps, LLC</h1>
-    <p>We design and publish thoughtful mobile apps.</p>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">Allerton Apps</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/support.html">Support</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="wrap">
-    <section class="card" id="about">
-      <h2>About</h2>
-      <p>Allerton Apps, LLC is a software publisher based in Florida. We build iOS apps focused on fitness, health, and productivity.</p>
-      <p><strong>Primary product:</strong> FitScribe — workout tracking with AI-assisted planning.</p>
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <div class="product-badge">
+            <img src="/assets/img/fitscribe-icon.png" alt="FitScribe app icon">
+            <span>FitScribe</span>
+          </div>
+          <p class="eyebrow">Allerton Apps presents</p>
+          <h1>FitScribe — AI-generated workouts that meet you where you are.</h1>
+          <p class="subhead">FitScribe’s core logging, planning, and insights are free. Upgrade to remove ads and generate AI plans tailored to you.</p>
+          <div class="plan-grid" aria-label="FitScribe plans">
+            <article class="plan-card">
+              <h2>Free (no subscription)</h2>
+              <ul>
+                <li><strong>Unlimited</strong> workout logging</li>
+                <li><strong>Unlimited</strong> scheduled workouts</li>
+                <li><strong>Unlimited</strong> workout templates</li>
+                <li><strong>Anatomy view</strong>: by-muscle stats across your full history</li>
+                <li><strong>Progression view</strong>: by-exercise trends across your full history</li>
+                <li><strong>Workout notifications</strong></li>
+              </ul>
+              <p class="plan-note">Free tier shows banner ads.</p>
+            </article>
+            <article class="plan-card">
+              <h2>Subscription</h2>
+              <ul>
+                <li><strong>No banner ads</strong></li>
+                <li><strong>AI-generated workouts</strong> (up to 20 per month)</li>
+                <li><strong>Uses</strong> your workout history, preferences, and goals</li>
+                <li><strong>Generates</strong> up to 7 days at a time</li>
+                <li><strong>Re-running</strong> replaces existing upcoming AI workouts (prevents stockpiling months in advance)</li>
+              </ul>
+            </article>
+          </div>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="https://apps.apple.com/app/idXXXXXXXXXX">Download on the App Store</a>
+            <div class="hero-links">
+              <a class="btn btn-ghost" href="/fitscribe/privacy.html">Privacy</a>
+              <a class="btn btn-ghost" href="/fitscribe/terms.html">Terms</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="card" id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:support@allertonapps.com">support@allertonapps.com</a></p>
-      <p>Business: <a href="mailto:dev@allertonapps.com">dev@allertonapps.com</a></p>
+    <section class="section">
+      <div class="container feature-grid">
+        <article class="card">
+          <h3>Personalized Plans</h3>
+          <p>Adaptive programming keeps pace with your history, intensity, and training volume.</p>
+        </article>
+        <article class="card">
+          <h3>Strength &amp; Cardio</h3>
+          <p>Blend lifting, conditioning, and mobility without juggling multiple apps or spreadsheets.</p>
+        </article>
+        <article class="card">
+          <h3>Simple Privacy</h3>
+          <p>Your workout data stays between you and FitScribe. We only collect what keeps the app running.</p>
+        </article>
+      </div>
     </section>
 
-    <section class="card" id="fitscribe">
-      <h2>FitScribe (iOS)</h2>
-      <p>Log workouts, analyze progress, and generate plans tailored to your training history.</p>
-      <!-- App Store link goes here once live -->
-      <!-- <p><a class="btn" href="https://apps.apple.com/app/idXXXXXXXXXX">View on the App Store</a></p> -->
-    </section>
-
-    <section class="card" id="policies">
-      <h2>Policies</h2>
-      <p><a href="/support.html">Support</a> · <a href="/privacy.html">Privacy Policy</a></p>
+    <section class="section">
+      <div class="container info-card">
+        <h2>About Allerton Apps</h2>
+        <p>Allerton Apps builds focused, privacy-conscious products for people who want to stay consistent. FitScribe for iOS is our flagship experience.</p>
+        <p>Need help? Email <a href="mailto:support@allertonapps.com">support@allertonapps.com</a>.</p>
+      </div>
     </section>
   </main>
 
-  <footer>
-    © <span id="y"></span> Allerton Apps, LLC
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="current-year"></span> Allerton Apps, LLC</p>
+      <nav class="footer-nav" aria-label="Legal">
+        <a href="/support.html">Support</a>
+      </nav>
+    </div>
   </footer>
-  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-
